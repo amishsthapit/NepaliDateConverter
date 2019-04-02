@@ -67,6 +67,30 @@ namespace Tests
             Assert.AreEqual(5, converter.WeekDay);
         }
 
+        [Test]
+        public void ConvertToNepaliShouldReturn2047_5_11()
+        {
+            converter = DateConverter.ConvertToNepali(1990, 8, 27);
+            Assert.AreEqual(2047, converter.Year);
+            Assert.AreEqual(5, converter.Month);
+            Assert.AreEqual(11, converter.Day);
+            Assert.AreEqual("Monday", converter.WeekDayName);
+            Assert.AreEqual("Bhadra", converter.MonthName);
+            Assert.AreEqual(2, converter.WeekDay);
+        }
+
+        [Test]
+        public void ConvertToEnglishShouldReturn1990_8_27()
+        {
+            converter = DateConverter.ConvertToEnglish(2047, 5, 11);
+            Assert.AreEqual(1990, converter.Year);
+            Assert.AreEqual(8, converter.Month);
+            Assert.AreEqual(27, converter.Day);
+            Assert.AreEqual("Monday", converter.WeekDayName);
+            Assert.AreEqual("August", converter.MonthName);
+            Assert.AreEqual(2, converter.WeekDay);
+        }
+
         [Test()]
         public void ConvertToEnglishShouldReturn2016_4_27()
         {
