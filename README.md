@@ -20,11 +20,13 @@ $ Install-Package NepaliDateConverter.NETCORE
 The package has two class available. They are as follows:
 #### DateConverter
 This class contains static methods which can be used to convert the dates. They are as follows:
+
 | Method | Parameters | Description |
 | ------ | ------ | ------ |
 | ConvertToNepali | int <Year>, int <Month>, int <day> | This method is used to convert AD dates to BS.|
 | ConvertToEnglish | int <Year>, int <Month>, int <day> | This method is used to convert BS dates to AD.|
 The above methods will return object with following property:
+
 | Variable | Description |
 | ------ | ------ |
 | Year | Converted Year |
@@ -37,6 +39,7 @@ The above methods will return object with following property:
 
 ### Calendar
 This class contains methods to validate the dates. They are as follows:
+
 | Method | Parameters | Description |
 | ------ | ------ | ------ |
 | IsLeapYear | int <Year> | Returns in bool if the year is leap year or not. |
