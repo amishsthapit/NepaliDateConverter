@@ -46,6 +46,6 @@ This class contains methods to validate the dates. They are as follows:
 | IsLeapYear | int Year | Returns in bool if the year is leap year or not. |
 | GetDayOfWeek | int WeekDayNumber | Returns the name of the day of the week. |
 | GetEnglishMonth | int Month Number | Returns the name of the english month for the provided month number. |
-| GetNepaliMonth | int Month Number> | Returns the name of the nepali month for the provided month number. |
+| GetNepaliMonth | int Month Number | Returns the name of the nepali month for the provided month number. |
 | ValidEnglishDate | int Year, int Month, int day | Returns in bool if the enterted english date is valid or not |
 | ValidNepaliDate | int Year, int Month, int day | Returns in bool if the enterted nepali date is valid or not |
