@@ -23,8 +23,9 @@ This class contains static methods which can be used to convert the dates. They 
 
 | Method | Parameters | Description |
 | ------ | ------ | ------ |
-| ConvertToNepali | int <Year>, int <Month>, int <day> | This method is used to convert AD dates to BS.|
-| ConvertToEnglish | int <Year>, int <Month>, int <day> | This method is used to convert BS dates to AD.|
+| ConvertToNepali | int Year, int Month, int day | This method is used to convert AD dates to BS.|
+| ConvertToEnglish | int Year, int Month, int day | This method is used to convert BS dates to AD.|
+
 The above methods will return object with following property:
 
 | Variable | Description |
@@ -42,9 +43,9 @@ This class contains methods to validate the dates. They are as follows:
 
 | Method | Parameters | Description |
 | ------ | ------ | ------ |
-| IsLeapYear | int <Year> | Returns in bool if the year is leap year or not. |
-| GetDayOfWeek | int <WeekDayNumber> | Returns the name of the day of the week. |
-| GetEnglishMonth | int <Month Number> | Returns the name of the english month for the provided month number. |
-| GetNepaliMonth | int <Month Number> | Returns the name of the nepali month for the provided month number. |
-| ValidEnglishDate | int <Year>, int <Month>, int <day> | Returns in bool if the enterted english date is valid or not |
-| ValidNepaliDate | int <Year>, int <Month>, int <day> | Returns in bool if the enterted nepali date is valid or not |
+| IsLeapYear | int Year | Returns in bool if the year is leap year or not. |
+| GetDayOfWeek | int WeekDayNumber | Returns the name of the day of the week. |
+| GetEnglishMonth | int Month Number | Returns the name of the english month for the provided month number. |
+| GetNepaliMonth | int Month Number> | Returns the name of the nepali month for the provided month number. |
+| ValidEnglishDate | int Year, int Month, int day | Returns in bool if the enterted english date is valid or not |
+| ValidNepaliDate | int Year, int Month, int day | Returns in bool if the enterted nepali date is valid or not |
