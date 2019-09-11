@@ -1,11 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.438
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.61
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NepaliDateConverter", "NepaliDateConverter\NepaliDateConverter.csproj", "{09A4DA79-CB7F-4963-A075-CE61E38AA81A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1C22F0D8-F57B-4FB7-9455-4D7F6FC8872D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NepaliDateConverter.Tests", "NepaliDateConverter.Tests\NepaliDateConverter.Tests.csproj", "{9632C2B8-8B1C-4974-921B-317EBDD439A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NepaliDateConverter", "src\NepaliDateConverter\NepaliDateConverter.csproj", "{A976B296-EB71-4F85-8A2C-4EF01221FE05}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{5B2D1538-D8FA-4BEA-9351-20C2EFB4DE2F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NepaliDateConverter.Tests", "tests\NepaliDateConverter.Tests\NepaliDateConverter.Tests.csproj", "{3CCDD21E-D77C-40A7-93F1-2A5E39F7E741}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_build", "build\_build.csproj", "{2CED271D-C768-4F63-A577-9BC4F4CA30C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,17 +19,25 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{09A4DA79-CB7F-4963-A075-CE61E38AA81A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{09A4DA79-CB7F-4963-A075-CE61E38AA81A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{09A4DA79-CB7F-4963-A075-CE61E38AA81A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{09A4DA79-CB7F-4963-A075-CE61E38AA81A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9632C2B8-8B1C-4974-921B-317EBDD439A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9632C2B8-8B1C-4974-921B-317EBDD439A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9632C2B8-8B1C-4974-921B-317EBDD439A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9632C2B8-8B1C-4974-921B-317EBDD439A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A976B296-EB71-4F85-8A2C-4EF01221FE05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A976B296-EB71-4F85-8A2C-4EF01221FE05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A976B296-EB71-4F85-8A2C-4EF01221FE05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A976B296-EB71-4F85-8A2C-4EF01221FE05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CCDD21E-D77C-40A7-93F1-2A5E39F7E741}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CCDD21E-D77C-40A7-93F1-2A5E39F7E741}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CCDD21E-D77C-40A7-93F1-2A5E39F7E741}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CCDD21E-D77C-40A7-93F1-2A5E39F7E741}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CED271D-C768-4F63-A577-9BC4F4CA30C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CED271D-C768-4F63-A577-9BC4F4CA30C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CED271D-C768-4F63-A577-9BC4F4CA30C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CED271D-C768-4F63-A577-9BC4F4CA30C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A976B296-EB71-4F85-8A2C-4EF01221FE05} = {1C22F0D8-F57B-4FB7-9455-4D7F6FC8872D}
+		{3CCDD21E-D77C-40A7-93F1-2A5E39F7E741} = {5B2D1538-D8FA-4BEA-9351-20C2EFB4DE2F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {86448F9D-922F-4479-A4BE-E1F647728E96}

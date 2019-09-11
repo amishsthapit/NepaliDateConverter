@@ -11,7 +11,20 @@ Limatations:
  - The date conversion is only available till the Year 2090 BS.
 
 ### Installation
-NepaliDateConverter requires .NET Core 2.2 +. Install it using the Nuget Manager or run the following command in Package Manager Console
+NepaliDateConverter is targeting .NET Standard  1.0 so it can be used by almost all the .NET runtimes.
+
+| .NET  | Minimum Version |
+| ------ | ------ |
+| .NET Core | 1.0 |
+| .NET Framework | 4.5 |
+| Mono | 4.6 |
+| Xamarin.iOS | 10.0 |
+| Xamarin.Mac | 3.0 |
+| Xamarin.Android | 7.0 |
+| Universal Windows Platform | 10.0 |
+| Unity |2018.1 |
+
+Install it using the Nuget Manager or run the following command in Package Manager Console
 
 ```sh
 $ Install-Package NepaliDateConverter.NETCORE
