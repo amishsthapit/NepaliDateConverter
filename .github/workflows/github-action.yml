@@ -1,0 +1,13 @@
+name: Neapli Date Converter
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest 
+    steps:
+    - uses: actions/checkout@master
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        version: 2.2.108
+    - name: buld with Nuke
+      run: dotnet run  --project ./build/_build.csproj
