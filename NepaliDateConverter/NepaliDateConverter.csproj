@@ -4,6 +4,10 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>NepaliDateConverter.NETCORE</PackageId>
+    <PackageProjectUrl>https://github.com/amishsthapit/NepaliDateConverter</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/amishsthapit/NepaliDateConverter</RepositoryUrl>
+    <AssemblyVersion>1.0.2</AssemblyVersion>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
 </Project>
