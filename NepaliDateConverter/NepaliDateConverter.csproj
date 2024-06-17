@@ -1,22 +1,25 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 	  <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageId>NepaliDateConverter.NETCORE</PackageId>
     <PackageProjectUrl>https://github.com/amishsthapit/NepaliDateConverter</PackageProjectUrl>
     <RepositoryUrl>https://github.com/amishsthapit/NepaliDateConverter</RepositoryUrl>
-    <AssemblyVersion>1.0.2</AssemblyVersion>
-    <Version>1.0.3</Version>
+    <AssemblyVersion>1.0.4</AssemblyVersion>
+    <Version>1.0.4</Version>
     <PackageLicenseExpression>MIT OR Apache-2.0</PackageLicenseExpression>
+    <OutputType>Library</OutputType>
+    <Title>NepaliDateConverter</Title>
+    <PackageReleaseNotes>Upgraded the project to .NET Standard 2.0 along with Unit Tests.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
     <None Update="README.md">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-	  <None Include="README.md" Pack="true" PackagePath="\"/>
+	  <None Include="README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>
