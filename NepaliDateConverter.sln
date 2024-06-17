@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.438
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NepaliDateConverter", "NepaliDateConverter\NepaliDateConverter.csproj", "{09A4DA79-CB7F-4963-A075-CE61E38AA81A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NepaliDateConverter", "NepaliDateConverter\NepaliDateConverter.csproj", "{09A4DA79-CB7F-4963-A075-CE61E38AA81A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NepaliDateConverter.Tests", "NepaliDateConverter.Tests\NepaliDateConverter.Tests.csproj", "{9632C2B8-8B1C-4974-921B-317EBDD439A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NepaliDateConverter.Tests", "NepaliDateConverter.Tests\NepaliDateConverter.Tests.csproj", "{9632C2B8-8B1C-4974-921B-317EBDD439A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
