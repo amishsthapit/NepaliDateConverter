@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 	  <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageId>NepaliDateConverter.NETCORE</PackageId>
@@ -10,13 +10,14 @@
     <AssemblyVersion>1.0.2</AssemblyVersion>
     <Version>1.0.3</Version>
     <PackageLicenseExpression>MIT OR Apache-2.0</PackageLicenseExpression>
+    <OutputType>Library</OutputType>
   </PropertyGroup>
 
   <ItemGroup>
     <None Update="README.md">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-	  <None Include="README.md" Pack="true" PackagePath="\"/>
+	  <None Include="README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>
